@@ -1,5 +1,7 @@
 # Computer Vision Projects Written with MATLAB
 
+**Projects created by [Professor Shree K. Nayar](http://www.cs.columbia.edu/~nayar/) for Computational Aspects of Robotics**
+
 1. Object Recognition
 2. Edge Detection
 3. Panorama Image App
