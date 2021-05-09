@@ -46,6 +46,7 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
   
   - Even though the pictures share some features, they are, in fact, different images which might vary in brightness. If the pictures aren't blended well when combined, the result will be quite dissapointing. Thus, the app should be able to blend some differences that exist in each picture. 
     - [blendImagePair.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/panoramic_image_app/blendImagePair.m) blends pictures so that the results has the least incongruity that might be caused by putting two pictures with different brightness.
+    - Weighted blend was used. 
     - Let's blend some pictures:
     - <img src="https://user-images.githubusercontent.com/60580427/117567769-a31e9300-b0f8-11eb-898e-abb21c86af6c.png" width="50%" height="50%">
     - <img src="https://user-images.githubusercontent.com/60580427/117567771-a6198380-b0f8-11eb-8eb1-a5b00caa5a7d.png" width="50%" height="50%">
