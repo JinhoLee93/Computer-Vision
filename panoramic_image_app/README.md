@@ -57,7 +57,7 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
 Ok. So far, we've covered homography, backward warping, SIFT, RANSAC and blending. It's time to put everything together to complete the app. 
 - If put together, everything becomes [stitchImg.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/panoramic_image_app/stitchImg.m)
 - Since a panoramic image has different size than the original pictures, you must first change edges according to the direction of the pictures. For example, if we're combining the left and the center pictures the edges of the result must be expanded from x = 0 to -.
-- Do the same process as we did above.
+- Repeat the same process as we did above.
 - The pictures I'm making panoramic are:
 - <img src="https://user-images.githubusercontent.com/60580427/117568380-df52f300-b0fa-11eb-97bc-2c8286cdd78e.png" width="50%" height="50%"> left
 - <img src="https://user-images.githubusercontent.com/60580427/117568375-dbbf6c00-b0fa-11eb-8cfd-b52d3f2b0602.png" width="50%" height="50%"> center
