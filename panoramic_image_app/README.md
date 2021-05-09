@@ -49,6 +49,10 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - Let's blend some pictures:
     - <img src="https://user-images.githubusercontent.com/60580427/117567769-a31e9300-b0f8-11eb-898e-abb21c86af6c.png" width="50%" height="50%">
     - <img src="https://user-images.githubusercontent.com/60580427/117567771-a6198380-b0f8-11eb-8eb1-a5b00caa5a7d.png" width="50%" height="50%">
+    - The result is:
+    - <img src="https://user-images.githubusercontent.com/60580427/117567808-d9f4a900-b0f8-11eb-8438-3aa81d0d54fd.png" width="50%" height="50%">
+    - Quite impressive!
+
 
 
 
