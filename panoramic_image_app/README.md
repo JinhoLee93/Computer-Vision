@@ -20,7 +20,7 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - Apply the homography to the destination image, in here, the differently angled image.
     - Since the homography is homogenous, let's turn that back to the image coordinate by dividing each entry with the last imaginary entry.
     - Let's test the homography with these two images! 
-    - <img src="https://user-images.githubusercontent.com/60580427/117561631-612f2600-b0d3-11eb-8428-615f36a9b2e7.png" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/60580427/117561637-69876100-b0d3-11eb-9df1-162d3eba8ba9.png" width="40%" height="40%">
+    - <img src="https://user-images.githubusercontent.com/60580427/117561631-612f2600-b0d3-11eb-8428-615f36a9b2e7.png" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/60580427/117561637-69876100-b0d3-11eb-9df1-162d3eba8ba9.png" width="30%" height="30%">
 
 
 
