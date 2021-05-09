@@ -2,6 +2,8 @@
 
 **Project created by [Professor Shree K. Nayar](http://www.cs.columbia.edu/~nayar/)**
 
+Written by Jinho Lee (jl5027@columbia.edu)
+
 Think of this app as the iPhone panoramic camera (but in lower quality and not live. Good job, Apple!)!
 
 The app combines three images in order to make one panoramic image. This project is so cool in three major aspects:
