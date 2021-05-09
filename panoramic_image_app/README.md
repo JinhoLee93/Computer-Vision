@@ -59,9 +59,9 @@ Ok. So far, we've covered homography, backward warping, SIFT, RANSAC and blendin
 - Since a panoramic image has different size than the original pictures, you must first change edges according to the direction of the pictures. For example, if we're combining the left and the center pictures the edges of the result must be expanded from x = 0 to -.
 - Do the same process as we did above.
 - The pictures I'm making panoramic are:
-- <img src="https://user-images.githubusercontent.com/60580427/117568380-df52f300-b0fa-11eb-97bc-2c8286cdd78e.png" width="50%" height="50%">
-- <img src="https://user-images.githubusercontent.com/60580427/117568375-dbbf6c00-b0fa-11eb-8cfd-b52d3f2b0602.png" width="50%" height="50%">
-- <img src="https://user-images.githubusercontent.com/60580427/117568387-e37f1080-b0fa-11eb-94f5-f68ce8f74666.png" width="50%" height""50%">
+- <img src="https://user-images.githubusercontent.com/60580427/117568380-df52f300-b0fa-11eb-97bc-2c8286cdd78e.png" width="50%" height="50%"> left
+- <img src="https://user-images.githubusercontent.com/60580427/117568375-dbbf6c00-b0fa-11eb-8cfd-b52d3f2b0602.png" width="50%" height="50%"> center
+- <img src="https://user-images.githubusercontent.com/60580427/117568387-e37f1080-b0fa-11eb-94f5-f68ce8f74666.png" width="50%" height="50%"> right
 
 
 
