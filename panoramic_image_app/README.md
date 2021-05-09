@@ -32,6 +32,8 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - I want to backward warp this image <img src="https://user-images.githubusercontent.com/60580427/117561631-612f2600-b0d3-11eb-8428-615f36a9b2e7.png" width="20%" height="20%"> into the blank canvas in <img src="https://user-images.githubusercontent.com/60580427/117562029-cf291c80-b0d6-11eb-97d5-c6fbc040f482.png" width="30%" height="30%">
     - The result looks like
     - <img src="https://user-images.githubusercontent.com/60580427/117562057-ff70bb00-b0d6-11eb-926c-42ab493aa8b1.png" width="30%" height="30%">
+    - You're barely able to see the canvas because they match so well!
+   
 
 
 
