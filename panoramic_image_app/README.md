@@ -40,7 +40,7 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - <img src="https://user-images.githubusercontent.com/60580427/117562247-68a4fe00-b0d8-11eb-9cec-ff66b767c99f.png" width="80%" height="80%">
     - Oh no! Do you see the problem? It's detecting way too many features and, due to that, it detects some useless features outside the overlapped part as well, which is a common problem with SIFT. We need [RANSAC](https://en.wikipedia.org/wiki/Random_sample_consensus) to pick the best matching features between pictures!
     - Get Euclidean distance between the original destination points and those created by the homography and find the distance in which most features fall in. 
-    - Will my RANSAC work well? Let's see!
+    - Will my RANSAC work properly? Let's see!
     - <img src="https://user-images.githubusercontent.com/60580427/117562530-98550580-b0da-11eb-8711-6bd62e1a881a.png" width="80%" height="80%">
     - Yes, it does! 
   
