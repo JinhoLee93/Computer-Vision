@@ -62,6 +62,8 @@ Ok. So far, we've covered homography, backward warping, SIFT, RANSAC and blendin
 - <img src="https://user-images.githubusercontent.com/60580427/117568380-df52f300-b0fa-11eb-97bc-2c8286cdd78e.png" width="50%" height="50%"> left
 - <img src="https://user-images.githubusercontent.com/60580427/117568375-dbbf6c00-b0fa-11eb-8cfd-b52d3f2b0602.png" width="50%" height="50%"> center
 - <img src="https://user-images.githubusercontent.com/60580427/117568387-e37f1080-b0fa-11eb-94f5-f68ce8f74666.png" width="50%" height="50%"> right
+- The moment of truth!
+- <img src="https://user-images.githubusercontent.com/60580427/117568427-1c1eea00-b0fb-11eb-8587-8b5a69ca5b2b.png" width="50%" height="50%">
 
 
 
