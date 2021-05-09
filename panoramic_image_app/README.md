@@ -34,6 +34,10 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - <img src="https://user-images.githubusercontent.com/60580427/117562057-ff70bb00-b0d6-11eb-926c-42ab493aa8b1.png" width="30%" height="30%">
     - You're barely able to see the canvas because they match so well!
    
+  - The app is almost fully prepared to be complete! Now we are running SIFT detector to find as many shared features as possible. 
+    - [genSIFTMatches](https://github.com/JinhoLee93/Computer_Vision/blob/main/panoramic_image_app/genSIFTMatches.m) was provided by generous [Professor Shree K. Nayar](http://www.cs.columbia.edu/~nayar/)
+    - The result after SIFT detector is:
+    - <img src="https://user-images.githubusercontent.com/60580427/117562247-68a4fe00-b0d8-11eb-9cec-ff66b767c99f.png" width="30%" height="30%">
 
 
 
