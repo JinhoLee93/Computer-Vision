@@ -23,6 +23,9 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - <img src="https://user-images.githubusercontent.com/60580427/117561631-612f2600-b0d3-11eb-8428-615f36a9b2e7.png" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/60580427/117561637-69876100-b0d3-11eb-9df1-162d3eba8ba9.png" width="30%" height="30%">
     - And the result is
     - <img src="https://user-images.githubusercontent.com/60580427/117561683-e4e91280-b0d3-11eb-938d-10a6f6175825.png" width="50%" height="50%">
+    - I think it works really well!
+  
+  - Okay. Now we know homograpy works really well in terms of matching features in different angles. However, only with applying homography, you can't match images in a certain angle. You need to [backward (reverse) warp](https://en.wikipedia.org/wiki/Image_warping) the left and right images to fit the center image.
 
 
 
