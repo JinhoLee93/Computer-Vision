@@ -1,4 +1,4 @@
-# Computer Vision Projects Written with MATLAB
+# Computer Vision Projects Written in MATLAB
 
 **Projects created by [Professor Shree K. Nayar](http://www.cs.columbia.edu/~nayar/) for Computer Vision**
 
