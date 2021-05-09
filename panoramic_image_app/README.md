@@ -26,6 +26,10 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - I think it works really well!
   
   - Okay. Now we know homograpy works really well in terms of matching features in different angles. However, only with applying homography, you can't match images in a certain angle. You need to [backward (reverse) warp](https://en.wikipedia.org/wiki/Image_warping) the left and right images to fit the center image.
+    - All you need to do is change each pixel according to the computed homography above to warp images.
+    - Don't forget to check the boundaries of the warped image so that the result gets all messed up!
+    - Let's test it with some images below.
+    - I want to backward warp this image <img src="https://user-images.githubusercontent.com/60580427/117561631-612f2600-b0d3-11eb-8428-615f36a9b2e7.png" width="20%" height="20%"> into the blank canvas in <img src="https://user-images.githubusercontent.com/60580427/117562029-cf291c80-b0d6-11eb-97d5-c6fbc040f482.png" width="20%" height="20%">
 
 
 
