@@ -42,6 +42,9 @@ Before we jump into making a panoramic image, there are a few prerequisite steps
     - Get Euclidean distance between the original destination points and those created by the homography and find the distance in which most features fall in. 
     - Will my RANSAC work well? Let's see!
     - <img src="https://user-images.githubusercontent.com/60580427/117562530-98550580-b0da-11eb-8711-6bd62e1a881a.png" width="80%" height="80%">
+    - Yes, it does! 
+  
+  - Even though the pictures share some features, they are, in fact, different images which vary 
 
 
 
