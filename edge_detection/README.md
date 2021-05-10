@@ -28,3 +28,7 @@ We will generate Hough accumulator with [generateHoughAccumulator](https://githu
 - And I circled some of the intersections so that you can see them more clearly.
 - <img width="179" alt="Screen Shot 2021-05-10 at 5 22 29 PM" src="https://user-images.githubusercontent.com/60580427/117628904-9495b180-b1b4-11eb-8744-cff6169f3598.png">
 
+Now it's time to use the accumulated sinusoids to find edges in the image. 
+- Because it is extremely easy to see where the edges are in the result from the accumulator above, we only need to find brightness peaks of the accumulated sinusoids and apply the peaks to the image. Set up some threshold so that most lines are well detected. 
+- Draw lines to see if lines are correctly detected.
+- ![line_hough_2](https://user-images.githubusercontent.com/60580427/117630429-23ef9480-b1b6-11eb-80b5-5b34cd7bfb6e.png)
