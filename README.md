@@ -2,6 +2,8 @@
 
 **Projects created by [Professor Shree K. Nayar](http://www.cs.columbia.edu/~nayar/) for Computer Vision**
 
+Written by Jinho Lee
+
 1. Object Recognition
 2. Edge Detection
 3. Panoramic Image App
