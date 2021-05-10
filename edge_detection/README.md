@@ -18,3 +18,7 @@ Hough Tranform
 - Recall "a point on the line becomes a sinusoid." This means sinusoids will be accumulated when an edge is detected. And we need an "Accumulator" to do so.
 
 We will generate Hough accumulator with [generateHoughAccumulator](https://github.com/JinhoLee93/Computer_Vision/blob/main/edge_detection/generateHoughAccumulator.m)
+- First, we define rho and theta of Hough Space according to those in Image Space.
+- Then accumulate all the sinusoids.
+- We will test the performance with this photo below
+- ![hough_2](https://user-images.githubusercontent.com/60580427/117628146-cd815680-b1b3-11eb-80b9-1be2b97f2ca9.png)
