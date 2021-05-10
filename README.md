@@ -7,6 +7,7 @@ Written by Jinho Lee (jl5027@columbia.edu)
 1. Object Recognition
 2. Edge Detection
 3. Panoramic Image App
+- The app combines three images in order to make one panoramic image
 4. Photometric Stereo
 5. Focus App
 6. Tracking Object
