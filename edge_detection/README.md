@@ -12,4 +12,9 @@ Hough Tranform
 - Works with two dependent spaces, one for Image Space and the other for Hough (Parameter) Space.
 - Parameterization differs by the metric, for example, you can parameterize either lines or sinusoids from Image Space into Hough Space.  However, sinusoids are much better in term of getting definite results since slope values are <img src="https://latex.codecogs.com/gif.latex?-\infty\leq{m}\leq\infty">, whereas the range of sinusoids is finite <img src="https://latex.codecogs.com/gif.latex?0\leq\theta\leq\pi">. Sinusoid parameterization is used for this project.
   - So, a point on a line in Image Space becomes a sinusoid in Hough Space. 
-- There are two parameters in Image Space, <img src="https://latex.codecogs.com/gif.latex?\rho"> and <img src="https://latex.codecogs.com/gif.latex?\theta">
+- There are two parameters in Image Space, <img src="https://latex.codecogs.com/gif.latex?\rho"> and <img src="https://latex.codecogs.com/gif.latex?\theta">.
+  - <img src="https://latex.codecogs.com/gif.latex?\rho"> is the distance from the origin to a certain point, and <img src="https://latex.codecogs.com/gif.latex?\theta"> is the angle between x axis and the line in Image Space.
+- <img src="https://latex.codecogs.com/gif.latex?\rho"> and <img src="https://latex.codecogs.com/gif.latex?\theta"> become two primary axes in Hough Space. Then now you have a sinusoid for each point on the line.
+- Recall "a point on the line becomes a sinusoid." This means sinusoids will be accumulated when an edge is detected. And we need an "Accumulator" to do so.
+
+We will generate Hough accumulator with [generateHoughAccumulator](https://github.com/JinhoLee93/Computer_Vision/blob/main/edge_detection/generateHoughAccumulator.m)
