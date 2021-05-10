@@ -22,3 +22,6 @@ We will generate Hough accumulator with [generateHoughAccumulator](https://githu
 - Then accumulate all the sinusoids.
 - We will test the performance with this photo below
 - ![hough_2](https://user-images.githubusercontent.com/60580427/117628146-cd815680-b1b3-11eb-80b9-1be2b97f2ca9.png)
+- Let's see what happens when you put this through the accumulator!
+- ![accumulator_hough_2](https://user-images.githubusercontent.com/60580427/117628258-e984f800-b1b3-11eb-8f0d-1906a44441bc.png)
+
