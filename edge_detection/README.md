@@ -24,4 +24,7 @@ We will generate Hough accumulator with [generateHoughAccumulator](https://githu
 - ![hough_2](https://user-images.githubusercontent.com/60580427/117628146-cd815680-b1b3-11eb-80b9-1be2b97f2ca9.png)
 - Let's see what happens when you put this through the accumulator!
 - <img src="https://user-images.githubusercontent.com/60580427/117628258-e984f800-b1b3-11eb-8f0d-1906a44441bc.png" height="50%">
-- From the result, you can clearly see accumulated sinusoids and the focus of it is the accumulated intersections that are shown by higher brightness than other intersections. 
+- From the result, you can clearly see accumulated sinusoids and the focus of it is the accumulated intersections that are shown by higher brightness than other intersections. Each of them represents a line in Image Space.
+- And I circled some of the intersections so that you can see them more clearly.
+- <img width="179" alt="Screen Shot 2021-05-10 at 5 22 29 PM" src="https://user-images.githubusercontent.com/60580427/117628904-9495b180-b1b4-11eb-8744-cff6169f3598.png">
+
