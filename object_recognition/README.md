@@ -20,5 +20,10 @@ The properties of an object in an image to be used here are:
 - <img src="https://user-images.githubusercontent.com/60580427/117792442-3f29d500-b286-11eb-9d8b-9762c92b8a43.png" height="40%" width="40%">
 - The green lines signify the objects' orientations and the red dots does their centers.
 
-And I want to recognize those two objects among other objects in the image below
+And we want to recognize those two objects among other objects in the image below
 - <img src="https://user-images.githubusercontent.com/60580427/117792836-9fb91200-b286-11eb-9962-4122cc31a012.png" width="40%" height="40%">
+
+How are we supposed to use the calculated properties to do so?
+- we just apply the properties to the image with a bunch of other objects!
+
+[recognizeObjects](https://github.com/JinhoLee93/Computer_Vision/blob/main/object_recognition/recognizeObjects.m)
