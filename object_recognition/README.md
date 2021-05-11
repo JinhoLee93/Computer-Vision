@@ -30,6 +30,8 @@ We will see if the properties are enough to recognize the first two objects by u
 - First, we get all the properties of the objects present.
 - I added some threshold (0.028) so that the differences between the properties of the first two objects and the others'.
 - The result looks like:
-- <img src="https://user-images.githubusercontent.com/60580427/117797645-35ef3700-b28b-11eb-8dca-1c8048dfdcbf.png" height="50%" width="50%">
+- <img src="https://user-images.githubusercontent.com/60580427/117797645-35ef3700-b28b-11eb-8dca-1c8048dfdcbf.png" height="40%" width="40%">
 - I'd say this works really well!
+- However, due to the simplicity of 2-D properties, when objects have very similar properties with the ones that you want to recognize, this won't produce desirable outputs just like the image below;
+- ![testing1c2_many_objects_2](https://user-images.githubusercontent.com/60580427/117798907-8d41d700-b28c-11eb-8be3-a5f6a3203fcb.png)
 
