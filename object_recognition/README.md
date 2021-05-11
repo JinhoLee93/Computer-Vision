@@ -7,7 +7,7 @@ How do our computers recognize objects? Is it even possible? Yes! Very easily wi
 The properties of an object in an image to be used here are: 
 - Center column
 - Center row
-- Minimum inertia
+- Minimum [inertia](https://en.wikipedia.org/wiki/Inertia)
 - Orientation
 - Roundness
 - Area
