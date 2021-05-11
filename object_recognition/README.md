@@ -34,4 +34,4 @@ We will see if the properties are enough to recognize the first two objects by u
 - I'd say this works really well!
 - However, due to the simplicity of 2-D properties, when objects have very similar properties with the ones that you want to recognize, this won't produce desirable outputs just like the image below;
 - <img src="https://user-images.githubusercontent.com/60580427/117798907-8d41d700-b28c-11eb-8be3-a5f6a3203fcb.png" height="40%" width="40%">
-
+- In this case, the fork and knife are also recognized. This is the thing about 2-D properties. They are pretty straightforward in terms of calculations, yet they are too simple to be recognized. So, use 2-D properties to recognize objects with a grain of salt!
