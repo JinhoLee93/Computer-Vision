@@ -26,4 +26,10 @@ And we want to recognize those two objects among other objects in the image belo
 How are we supposed to use the calculated properties to do so?
 - we just apply the properties to the image with a bunch of other objects!
 
-[recognizeObjects](https://github.com/JinhoLee93/Computer_Vision/blob/main/object_recognition/recognizeObjects.m)
+We will see if the properties are enough to recognize the first two objects by using [recognizeObjects](https://github.com/JinhoLee93/Computer_Vision/blob/main/object_recognition/recognizeObjects.m)!
+- First, we get all the properties of the objects present.
+- I added some threshold (0.028) so that the differences between the properties of the first two objects and the others'.
+- The result looks like:
+- <img src="https://user-images.githubusercontent.com/60580427/117797645-35ef3700-b28b-11eb-8dca-1c8048dfdcbf.png" height="50%" width="50%">
+- I'd say this works really well!
+
