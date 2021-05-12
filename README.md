@@ -10,6 +10,7 @@ Written by Jinho Lee (jl5027@columbia.edu)
 - Detects edges using [Hough Transform](https://en.wikipedia.org/wiki/Hough_transform).
 3. [Panoramic Image App](https://github.com/JinhoLee93/Computer_Vision/blob/main/panoramic_image_app/README.md)
 - Combines three images in order to make one panoramic image using [feature detection](https://en.wikipedia.org/wiki/Feature_(computer_vision)).
-4. Photometric Stereo
+4. [Photometric Stereo](https://github.com/JinhoLee93/Computer_Vision/tree/main/photometric_stereo)
+- Reconstructs the surface of an object by using [Photometric Stereo](https://en.wikipedia.org/wiki/Photometric_stereo).
 5. Focus App
 6. Tracking Object
