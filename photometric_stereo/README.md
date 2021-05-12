@@ -46,5 +46,5 @@ The last step is to compute the vase's surface normals based on the information 
   - <img src="https://user-images.githubusercontent.com/60580427/117969132-019a7a00-b362-11eb-9ce3-461af7cddf2d.png" width="20%" height="20%">
 
 Let's reconstruct the shape of the vase!
-- <img width="20%" height="20%" src="https://user-images.githubusercontent.com/60580427/117969412-53430480-b362-11eb-867d-ca71bc5fa8c4.png">
+- <img width="50%" height="50%" src="https://user-images.githubusercontent.com/60580427/117969412-53430480-b362-11eb-867d-ca71bc5fa8c4.png">
 
