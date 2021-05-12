@@ -41,5 +41,8 @@ The last step is to compute the vase's surface normals based on the information 
   - To get normal, we're using the [Pseudo-Inverse technique](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse) with the light directions we've calculated before.
   - Since the albedo image has to only have values between 0 and 1, don't forget to normalize!
   - Albedo image:
-  - <img src="https://user-images.githubusercontent.com/60580427/117960626-24c02c00-b358-11eb-9b01-7965f482f84a.png">
+  - <img src="https://user-images.githubusercontent.com/60580427/117960626-24c02c00-b358-11eb-9b01-7965f482f84a.png" width="20%" height="20%">
+  - The surface normals layed on the mask:
+  - <img src="https://user-images.githubusercontent.com/60580427/117969132-019a7a00-b362-11eb-9ce3-461af7cddf2d.png" width="20%" height="20%">
+
 
