@@ -33,6 +33,13 @@ We are using the directions when we get the surface normals of the object. Befor
 Let's try doing the same process with a little bit more complicated object, like the vase below.
 - <img src="https://user-images.githubusercontent.com/60580427/117954453-fe978d80-b351-11eb-986a-836c3e229a7d.png" width="20%" height="20%">
 - <img src="https://user-images.githubusercontent.com/60580427/117954525-11aa5d80-b352-11eb-8cd3-ad66f5f5cf32.png" width="20%" height="20%">
+- Perfect! And we're almost there!
 
+The last step is to compute the vase's surface normals based on the information we've gathered. 
+- In [computeNormals.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/computeNormals.m), we are creating the vase's albedo image, which consists of image values between 0 and 1, and a matrix with its surface normals. 
+  - First, we're making an image intensity map, I, of the vase. Since we don't need to include any background, which is black anyway, in the intensity map, we are only concerned about the pixels with brightness value. 
+  - To get normal, we're using the [Pseudo-Inverse technique](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse) with the light directions we've calculated before.
+  - Since the albedo image has to only have values between 0 and 1, don't forget to normalize!
+  - Albedo image:
+  - <img src="https://user-images.githubusercontent.com/60580427/117960626-24c02c00-b358-11eb-9b01-7965f482f84a.png">
 
-  
