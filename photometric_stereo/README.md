@@ -5,7 +5,7 @@ Written by Jinho Lee (jl5027@columbia.edu)
 [Photometric Stereo](https://en.wikipedia.org/wiki/Photometric_stereo) is a very essential computer vision technique for the computer to recognize the shapes of objects.
 
 The information we need to gather to conduct photometric stereo is 
-- An object with a [Lambertian surface](https://en.wikipedia.org/wiki/Lambertian_reflectance) since lights reflected on Lambertian surfaces have the same brightness all over the surfaces and they only differ in magnitude based on their directions.<img width="1089" alt="Screen Shot 2021-05-12 at 5 40 38 PM" src="https://user-images.githubusercontent.com/60580427/117945352-34844400-b349-11eb-8de6-e645a3682309.png">
+- An object with a [Lambertian surface](https://en.wikipedia.org/wiki/Lambertian_reflectance) since lights reflected on Lambertian surfaces have the same brightness all over the surfaces and they only differ in magnitude based on their directions.<img width="1089" alt="Screen Shot 2021-05-12 at 5 40 38 PM" src="https://user-images.githubusercontent.com/60580427/117945352-34844400-b349-11eb-8de6-e645a3682309.png"> (Provided by [Professor Nayar](http://www.cs.columbia.edu/~nayar/))
 
 - Pictures of the object with lights from different directions shining on it
 - Properties of the object
