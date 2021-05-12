@@ -30,7 +30,9 @@ We are using the directions when we get the surface normals of the object. Befor
 - The mask is easily made with [computeMask.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/computeMask.m). 
 - <img src="https://user-images.githubusercontent.com/60580427/117954254-ce4fef00-b351-11eb-8886-be0f0f4d9a8d.png" width="20%" height="20%">
 
-Let's try doing the same process with a little bit more complicated object, like a vase.
+Let's try doing the same process with a little bit more complicated object, like the vase below.
 - <img src="https://user-images.githubusercontent.com/60580427/117954453-fe978d80-b351-11eb-986a-836c3e229a7d.png" width="20%" height="20%">
+- <img src="https://user-images.githubusercontent.com/60580427/117954525-11aa5d80-b352-11eb-8cd3-ad66f5f5cf32.png" width="20%" height="20%">
+
 
   
