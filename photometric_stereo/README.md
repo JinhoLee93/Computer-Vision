@@ -15,4 +15,4 @@ Let's say we want to recognize this sphere below.
 
 First, we need to translate the 3D information of the sphere into the computer's 2D world. Then, how do we adjust any 3D information into 2D?
 - To begin with, the computer needs to be able to detect the sphere. 
-- I'm using [im2bw function](https://www.mathworks.com/help/images/ref/im2bw.html) from MATLAB to render it easier to detect the object in [findSphere.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/findSphere.m).
+- I'm using [im2bw function](https://www.mathworks.com/help/images/ref/im2bw.html) from MATLAB to render it easier to get the object properties in [findSphere.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/findSphere.m).
