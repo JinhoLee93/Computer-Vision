@@ -15,11 +15,13 @@ The information we need to gather to conduct photometric stereo is
 Let's say we want to recognize this sphere below.
 - <img src="https://user-images.githubusercontent.com/60580427/117942486-1537e780-b346-11eb-9a55-763a06b76d3e.png" width="20%" height="20%">
 
-First, we need to translate the 3D information of the sphere into the computer's 2D world. Then, how do we adjust any 3D information into 2D?
-- To begin with, the computer needs to be able to detect the sphere. 
+To begin with, the computer needs to be able to detect the sphere. 
 - I'm using [im2bw function](https://www.mathworks.com/help/images/ref/im2bw.html) from MATLAB to render it easier to get the object properties in [findSphere.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/findSphere.m).
 
 Now we have all the information we need from the sphere. The computer is able to detect it! The next step should be gathering information from light directions. 
 - As we can see from the picture of the sphere above, only the magnitude of the brightness changes on the surface.
 - So, only the magnitude differs. We kind of understand what's going on here. Further away from the light source, the lower the magnitude of the brightness, which insinuates we can actually compute the direction of the light by finding pixels with maximum brightness!
 - More pictures with the sphere lit by different light sources are already prepared.
+- We need to compute each light direction in every individual image with [computeLightDirections.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/computeLightDirections.m)
+- After we have the pixels with the maximum magnitude of the brightness, we need to interpret each point on the sphere in 3D world into that of 2D world! Thus, we need to translate the 3D information of the pixels into the computer's 2D coordinate.
+  - How? Take a look at Equations in three-dimensional space in [the sphere equation](https://en.wikipedia.org/wiki/Sphere). 
