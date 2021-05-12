@@ -23,5 +23,13 @@ Now we have all the information we need from the sphere. The computer is able to
 - So, only the magnitude differs. We kind of understand what's going on here. Further away from the light source, the lower the magnitude of the brightness, which insinuates we can actually compute the direction of the light by finding pixels with maximum brightness!
 - More pictures with the sphere lit by different light sources are already prepared.
 - We need to compute each light direction in every individual image with [computeLightDirections.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/computeLightDirections.m)
-- After we have the pixels with the maximum magnitude of the brightness, we need to interpret each point on the sphere in 3D world into that of 2D world! Thus, we need to translate the 3D information of the pixels into the computer's 2D coordinate.
-  - How? Take a look at Equations in three-dimensional space in [the sphere equation](https://en.wikipedia.org/wiki/Sphere). 
+- After we have the pixels with the maximum magnitude of the brightness, we need to interpret each point on the sphere in 3D world into that of 2D world! Thus, we need to translate the 3D information of the pixels (x, y, z) into the computer's 2D coordinate (x, y).
+  - How? Take a look at Equations in three-dimensional space in [the sphere equation](https://en.wikipedia.org/wiki/Sphere) and, with that information, normalize the coordinates. 
+
+We are using the directions when we get the surface normals of the object. Before that, let's create a mask, which is an image composed only by binary numbers, for the object. The mask will be used to lay the surface normals on.
+- The mask is easily made with [computeMask.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/computeMask.m). 
+- <img src="https://user-images.githubusercontent.com/60580427/117954254-ce4fef00-b351-11eb-8886-be0f0f4d9a8d.png" width="20%" height="20%">
+
+
+Let's 
+  
