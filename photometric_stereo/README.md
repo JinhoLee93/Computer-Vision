@@ -20,4 +20,6 @@ First, we need to translate the 3D information of the sphere into the computer's
 - I'm using [im2bw function](https://www.mathworks.com/help/images/ref/im2bw.html) from MATLAB to render it easier to get the object properties in [findSphere.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/photometric_stereo/findSphere.m).
 
 Now we have all the information we need from the sphere. The computer is able to detect it! The next step should be gathering information from light directions. 
-- As we can see from the picture of the sphere above, the brightness 
+- As we can see from the picture of the sphere above, only the magnitude of the brightness changes on the surface.
+- So, only the magnitude differs. We kind of understand what's going on here. Further away from the light source, the lower the magnitude of the brightness, which insinuates we can actually compute the direction of the light by finding pixels with maximum brightness!
+- More pictures with the sphere lit by different light sources are already prepared.
