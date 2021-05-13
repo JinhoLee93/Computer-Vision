@@ -12,6 +12,6 @@ Written by Jinho Lee (jl5027@columbia.edu)
 - Combines three images in order to make one panoramic image using [feature detection](https://en.wikipedia.org/wiki/Feature_(computer_vision)).
 4. [Photometric Stereo](https://github.com/JinhoLee93/Computer_Vision/tree/main/photometric_stereo)
 - Reconstructs the surface of an object by using [Photometric Stereo](https://en.wikipedia.org/wiki/Photometric_stereo).
-5. [Refocus App](https://github.com/JinhoLee93/Computer_Vision/tree/main/Refocus_app)
+5. [Refocus App](https://github.com/JinhoLee93/Computer_Vision/tree/main/refocus_app)
 - Finds focus using [Depth from Focus/Defocus](https://www.youtube.com/watch?v=A-fgaR7vJ-w) (Professor Nayar has an [awesome YouTube channel](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) for CV education! Please check it out!)
 6. Tracking Object
