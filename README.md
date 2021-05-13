@@ -13,5 +13,5 @@ Written by Jinho Lee (jl5027@columbia.edu)
 4. [Photometric Stereo](https://github.com/JinhoLee93/Computer_Vision/tree/main/photometric_stereo)
 - Reconstructs the surface of an object by using [Photometric Stereo](https://en.wikipedia.org/wiki/Photometric_stereo).
 5. [Focus App](https://github.com/JinhoLee93/Computer_Vision/tree/main/focus_app)
-- Finds focus using [Depth from Defocus](https://www.youtube.com/watch?v=A-fgaR7vJ-w) (Professor Shree has an awesome YouTube channel for CV education! Please check it out!)
+- Finds focus using [Depth from Defocus](https://www.youtube.com/watch?v=A-fgaR7vJ-w) (Professor Shree has an [awesome YouTube channel](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) for CV education! Please check it out!)
 6. Tracking Object
