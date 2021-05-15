@@ -16,6 +16,7 @@ I've implemented depth from focus/defocus to create this app. So, what we need t
 Loading the focal stack is not a hard job. So, I'm going to skip the description of it here. 
 
 [generateIndexMap.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/refocus_app/generateIndexMap.m) 
-- We are using Modified Laplacian for our mask that will later be used to convolute each image with. 
+- We are using Discrete Laplacian for our mask that will later be used to convolute each image with. 
+- Now, we need a gray stack to apply the focus measure for the index map.
+  - The gray stack will be calculated by Modified Laplacian. 
 - Convolute each image in the focal stack with the mask created.  
-- 
