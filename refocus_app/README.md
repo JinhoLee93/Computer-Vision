@@ -27,4 +27,4 @@ Loading the focal stack is not a hard job. So, I'm going to skip the description
 [refocus_app](https://github.com/JinhoLee93/Computer_Vision/blob/main/refocus_app/refocusApp.m)
 - This implementation will allow the user to click wherever he wants on the displayed image and the clicked point will be on focus. 
   - Click points are implemented by [gipuut](https://www.mathworks.com/help/matlab/ref/ginput.html).
-- The transition between focuses should be smooth. 
+- The transition between focuses should be smooth as in [the result video](https://youtu.be/qJmX-NFqSr0). 
