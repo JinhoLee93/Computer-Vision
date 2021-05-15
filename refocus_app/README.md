@@ -17,4 +17,5 @@ Loading the focal stack is not a hard job. So, I'm going to skip the description
 
 [generateIndexMap.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/refocus_app/generateIndexMap.m) 
 - We are using Modified Laplacian for our mask that will later be used to convolute each image with. 
+- Convolute each image in the focal stack with the mask created.  
 - 
