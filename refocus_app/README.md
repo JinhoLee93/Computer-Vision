@@ -23,3 +23,8 @@ Loading the focal stack is not a hard job. So, I'm going to skip the description
 - Convolute each image in the focal stack with the mask created.  
 - Since there's quite a noise in the gray stack, we need to smooth it with [imfilter](https://www.mathworks.com/help/images/ref/imfilter.html). 
   - Here, I'm using an average filter because it gives similar results as a Gaussian smoothing filter.
+
+[refocus_app](https://github.com/JinhoLee93/Computer_Vision/blob/main/refocus_app/refocusApp.m)
+- This implementation will allow the user to click wherever he wants on the displayed image and the clicked point will be on focus. 
+  - Click points are implemented by [gipuut](https://www.mathworks.com/help/matlab/ref/ginput.html).
+- The transition between focuses should be smooth. 
