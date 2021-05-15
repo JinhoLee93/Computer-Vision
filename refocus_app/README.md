@@ -18,5 +18,8 @@ Loading the focal stack is not a hard job. So, I'm going to skip the description
 [generateIndexMap.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/refocus_app/generateIndexMap.m) 
 - We are using Discrete Laplacian for our mask that will later be used to convolute each image with. 
 - Now, we need a gray stack to apply the focus measure for the index map.
-  - The gray stack will be calculated by Modified Laplacian. 
+  - Convolute the focal stack.
+  - Then the gray stack will be calculated with Modified Laplacian. 
 - Convolute each image in the focal stack with the mask created.  
+- Since there's quite a noise in the gray stack, we need to smooth it with [imfilter](https://www.mathworks.com/help/images/ref/imfilter.html). 
+  - Here, I'm using an average filter because it gives similar results as a Gaussian smoothing filter.
