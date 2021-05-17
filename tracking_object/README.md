@@ -12,4 +12,5 @@ This tracking app calculates the optical flow with a simple [template matching m
 - Calculates the optical flow of the scene with a simple template matching method. 
 - The optical flow will be shown with red arrows like below:
 - <img src="https://user-images.githubusercontent.com/60580427/118400793-1c405c00-b69e-11eb-9d2e-a19bb4f5a6e0.png" height="50%" width="50%">
-
+- In order to carry out template matching, we need to find the correlation between the two images. I used [normxcorr2](https://www.mathworks.com/help/images/ref/normxcorr2.html). 
+  - However, normxcorr2 arbitrarily adds a padding, so, to get correct results, don't forget to account for the padding. 
