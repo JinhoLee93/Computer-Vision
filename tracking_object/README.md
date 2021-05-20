@@ -18,6 +18,7 @@ This tracking app calculates the optical flow with a simple [template matching m
 - Draws red arrows according to the optical flow in each window.
 
 [trackingTester.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/trackingTester.m)
+- Since this was also implemented with the same, simple template matching method as [computeFlow.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/computeFlow.m), perfect results are NOT expected.
 - Tracks an object in the image with a rectangular box, using the color map and color [histogram](https://en.wikipedia.org/wiki/Histogram) of the image, especially of the target object.
   - [rgb2ind](https://www.mathworks.com/help/matlab/ref/rgb2ind.html) is a very useful tool for acquiring both color maps and color histograms of images.
   - For histograms, [histcounts](https://www.mathworks.com/help/matlab/ref/histcounts.html) should be used in order to fill up the bins.
