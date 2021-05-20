@@ -14,7 +14,7 @@ This tracking app calculates the optical flow with a simple [template matching m
 - <img src="https://user-images.githubusercontent.com/60580427/118400793-1c405c00-b69e-11eb-9d2e-a19bb4f5a6e0.png" height="50%" width="50%">
 - In order to carry out template matching, we need to find the correlation between the two images. I used [normxcorr2](https://www.mathworks.com/help/images/ref/normxcorr2.html). 
   - However, normxcorr2 arbitrarily adds a padding, so, to get correct results, don't forget to account for the padding. 
-- Draws optical flow arrows in each window.
+- Draws red arrows according to the optical flow in each window.
 
 [trackingTester.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/trackingTester.m)
 - Tracks an object in the image with a rectangular box, using the color map and color [histogram](https://en.wikipedia.org/wiki/Histogram) of the image, especially of the target object.
