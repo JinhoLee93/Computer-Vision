@@ -10,6 +10,7 @@ This tracking app calculates the optical flow with a simple [template matching m
 
 [computeFlow.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/computeFlow.m)
 - Calculates the optical flow of the scene with a simple template matching method. 
+  - The scene should consist of frames and, in each frame, the objects should show some sense of movement.
 - The optical flow will be shown with red arrows like below:
 - <img src="https://user-images.githubusercontent.com/60580427/118400793-1c405c00-b69e-11eb-9d2e-a19bb4f5a6e0.png" height="50%" width="50%">
 - In order to carry out template matching, we need to find the correlation between the two images. I used [normxcorr2](https://www.mathworks.com/help/images/ref/normxcorr2.html). 
