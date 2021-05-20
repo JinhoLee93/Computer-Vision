@@ -26,3 +26,4 @@ This tracking app calculates the optical flow with a simple [template matching m
 - Let's say that we want the program to track the person in this frame below: 
 - <img src="https://user-images.githubusercontent.com/60580427/118978888-d263b880-b9b2-11eb-9adc-b85287460256.png" height="30%" width="30%">
 - The later frames will also feature the same person but in different position each frame.
+- Will it track the person pretty well? Let's find out!
