@@ -15,4 +15,4 @@ Written by Jinho Lee (jl5027@columbia.edu)
 5. [Refocus App](https://github.com/JinhoLee93/Computer_Vision/tree/main/refocus_app)
 - Finds focus using [Depth from Focus/Defocus](https://www.youtube.com/watch?v=A-fgaR7vJ-w) (Professor Nayar has an [awesome YouTube channel](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) for CV education! Please check it out!)
 6. [Tracking Object](https://github.com/JinhoLee93/Computer_Vision/tree/main/tracking_object)
-- Tracks an object in an image stack by calculating [Optical Flow](https://en.wikipedia.org/wiki/Optical_flow) of the object. 
+- Tracks an object in an image stack (frames) by calculating the [Optical Flow](https://en.wikipedia.org/wiki/Optical_flow) of the object. 
