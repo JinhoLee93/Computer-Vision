@@ -16,6 +16,6 @@ This tracking app calculates the optical flow with a simple [template matching m
   - However, normxcorr2 arbitrarily adds a padding, so, to get correct results, don't forget to account for the padding. 
 - Draws optical flow arrows in each window.
 
-[trackingTester](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/trackingTester.m)
-- Tracks an object in the image with a rectangular box, using the image's color map and histogram.
+[trackingTester.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/trackingTester.m)
+- Tracks an object in the image with a rectangular box, using the color map and color histogram of the image, especially the target area.
 - 
