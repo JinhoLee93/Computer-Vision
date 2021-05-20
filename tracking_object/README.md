@@ -18,4 +18,6 @@ This tracking app calculates the optical flow with a simple [template matching m
 
 [trackingTester.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/trackingTester.m)
 - Tracks an object in the image with a rectangular box, using the color map and color [histogram](https://en.wikipedia.org/wiki/Histogram) of the image, especially of the target object.
-- 
+  - [rgb2ind](https://www.mathworks.com/help/matlab/ref/rgb2ind.html) is a very useful tool for acquiring both color maps and color histograms of images.
+  - For histograms, [histcounts](https://www.mathworks.com/help/matlab/ref/histcounts.html) should be used in order to fill up the bins.
+
