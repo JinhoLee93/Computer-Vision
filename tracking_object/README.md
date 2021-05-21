@@ -6,6 +6,8 @@ We can track objects by calculating its optical flow.
 - Optical flow is the difference between the object's original poistion and its later position taken with a time difference. 
 - Simple optical flow calculation can be conducted by [Lucas-Kanade Solution](https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method), but we're not using it here to build something simpler.
 
+Check how this program works [here](https://youtu.be/835PWrawUNg).
+
 This tracking app calculates the optical flow with a simple [template matching method](https://en.wikipedia.org/wiki/Template_matching#:~:text=Template%20matching%20is%20a%20technique,to%20detect%20edges%20in%20images.).
 
 [computeFlow.m](https://github.com/JinhoLee93/Computer_Vision/blob/main/tracking_object/computeFlow.m)
