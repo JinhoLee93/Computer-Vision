@@ -30,3 +30,6 @@ This tracking app calculates the optical flow with a simple [template matching m
 - <img src="https://user-images.githubusercontent.com/60580427/118978888-d263b880-b9b2-11eb-9adc-b85287460256.png" height="30%" width="30%">
 - The later frames will also feature the same person but in different position each frame.
 - Will it track the person pretty well? Let's find out!
+- As you can see from [the result](https://youtu.be/835PWrawUNg), it tracks the person reasonably well even though it loses its track somewhere in the middle. However, in case of the ball below: 
+- <img src="https://user-images.githubusercontent.com/60580427/119111410-01833400-ba5e-11eb-9dec-1575e63a4041.png" height="30%" width="30%">
+
