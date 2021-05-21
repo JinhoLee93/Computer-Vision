@@ -38,5 +38,5 @@ This tracking app calculates the optical flow with a simple [template matching m
 - <img src="https://user-images.githubusercontent.com/60580427/119113051-ab16f500-ba5f-11eb-9c52-b6938133e303.png" height="30%" width="30%">
 - There are two reasons why the program doesn't track the ball as well as the person that I can come up with: 
   - 1. Blame it on the limit of template matching (I feel much better with this ;-)).
-  - 2. Maybe I'm doing something wrong with placing the box, which means the coordinate by the lines, 37, and 38 is a little bit off. 
+  - 2. Maybe I'm doing something wrong with placing the box, which means the coordinate by the lines, 37, and 38 are a little bit off. 
 - Because the reason b is something I can come up with a solution for, I will strive for a better way to pin the coordinate.
