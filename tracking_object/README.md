@@ -34,4 +34,5 @@ This tracking app calculates the optical flow with a simple [template matching m
 - <img src="https://user-images.githubusercontent.com/60580427/119111702-460ecf80-ba5e-11eb-9e29-6daf6912741a.png" height="30%" width="30%">
 - However, in case of the ball below: 
 - <img src="https://user-images.githubusercontent.com/60580427/119111410-01833400-ba5e-11eb-9dec-1575e63a4041.png" height="30%" width="30%">
-
+- Though, in the beginning, the program tracks it very well, yet, several frames later, the program loses its track like below:
+-  
